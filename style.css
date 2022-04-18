@@ -1,0 +1,10 @@
+@media print {
+  body > :not(.application-main),
+  #repository-container-header,
+  [aria-label="Breadcrumb"],
+  [aria-label="Edit"],
+  [aria-label="Delete release"],
+  div.Box-footer > :nth-child(2) {
+    display: none !important;
+  }
+}

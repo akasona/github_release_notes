@@ -1,0 +1,12 @@
+{
+  "name": "github pretty printable release notes",
+  "description": "github pretty printable release notes",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/releases/tag/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
